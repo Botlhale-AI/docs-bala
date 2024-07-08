@@ -4,17 +4,17 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
 
-  title: 'APIs',
-  // tagline: "The Botlhale NLP Toolkit",
-  url: 'https://docs-bala.botlhale.xyz',
+  title: 'Bala - Docs',
+  tagline: "Documentation",
+  url: 'https://docs-bala.botlhale.xyz', 
   baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/ficon.png',
-  organizationName: 'Botlhale-AI', // Usually your GitHub org/user name.
-  projectName: 'docs-bala', // Usually your repo name.
-  deploymentBranch: 'gh-pages',
-  trailingSlash: false, 
+  favicon: 'img/favicon.ico',
+  organizationName: 'Botlhale-AI', 
+  projectName: 'docs-bala', 
+  deploymentBranch: 'gh-pages', 
+  trailingSlash: false,
 
   presets: [
     [

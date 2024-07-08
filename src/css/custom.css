@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+:root {
+  --ifm-color-primary: #717171;
+  --ifm-color-primary-dark: #717171;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+  --docusaurus-highlighted-code-line-bg: rgba(141, 2, 2, 0.904);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #717171;
+  --ifm-color-primary-dark: #717171;
+  --ifm-color-primary-darker: #f4f4f4;
+  --ifm-color-primary-darkest: #f4f4f4;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+  --docusaurus-highlighted-code-line-bg: rgb(196, 6, 6);
+}
+
+/* Check for bugs such as null pointer references and unhandled exceptions. */
+:root[data-theme='light'] {
+  .navbar-logo-custom {  
+    /* content: url('/img/logoblack.png'); */
+    /* filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.75));  */
+  }
+}
+
+
+/* Custom background color and text color for the body in dark mode */
+[data-theme='dark']  {
+  background-color: #3c3c3b; /* Dark background color */
+  color: white; /* Light text color for contrast */
+  /* font-family: 'Open Sans', sans-serif; */
+}
+
+[data-theme='light']  {
+  background-color: #f4f4f4; /* Dark background color */
+  color: rgb(0, 0, 0); /* Light text color for contrast */
+  /* font-family: 'Open Sans', sans-serif; */
+}
+
+.navbar__title {
+  font-size: 1.5rem; /* Adjust the size as needed */
+  /* Add any other styling you want */
+}
+
+
+[data-theme='dark'] .theme-doc-sidebar-item-link:hover .menu__link {
+  background-color: #717171; 
+  color: rgb(255, 255, 255);
+}
+
+[data-theme='light'] .theme-doc-sidebar-item-link:hover .menu__link {
+  background-color: #717171; 
+  color: white;
+}
+
+[data-theme='dark'].theme-doc-sidebar-item-link.menu_list-item.active .menu_link {
+background-color: #717171; 
+color: rgb(255, 255, 255);
+}
+
+[data-theme='light'].theme-doc-sidebar-item-link.menu_list-item.active .menu_link {
+  background-color: #717171; 
+  color: white;
+  }
+
+  [data-theme='dark'] .navbar{
+    background-color: #3c3c3b;
+  }
+
+  [data-theme='light'] .navbar{
+    background-color: #f4f4f4;
+  }

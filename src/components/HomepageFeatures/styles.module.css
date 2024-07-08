@@ -1,0 +1,155 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.marg{
+  margin-top: 100px;
+}
+
+.feature {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.feature:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.content {
+  transition: opacity 0.3s ease-in-out;
+}
+
+.feature:hover .content {
+  opacity: 0.8;
+}
+
+.hcolor{
+  color: #717171;
+}
+
+[data-theme='dark'] .hcolor{
+  color: #f4f4f4;
+}
+
+[data-theme='dark'] .textcolor{
+  color: #ffffff;
+}
+
+[data-theme='light'] .textcolor{
+  color: #000000;
+}
+
+[data-theme='dark'] .border {
+  border: 1.89px solid #717171;
+  border-radius: 16px;
+  margin-top: 29.97px;
+  margin-right: 94.79px;
+  padding: 10px;
+  width: 287.95px;
+  height: auto;
+
+}
+
+.border {
+  border: 1.89px solid #717171;
+  border-radius: 16px;
+  margin-top: 29.97px;
+  margin-right: 94.79px;
+  padding: 10px;
+  width: 287.95px;
+  height: auto;
+
+}
+
+.text{
+  font-size: 16px;
+  line-height: 25.8px;
+  text-align: justify;
+  font-weight: 400;
+  width: 1182.1px;
+  height: 78px;
+}
+
+.textheading{
+  font-size: 18px;
+  line-height: 30.96px;
+  text-align: justify;
+  font-weight: 700;
+  height: 31px;
+  margin-top: 40px;
+}
+
+.textv:hover {
+  
+  border: none;
+  text-decoration: none;
+  border: 1.89px solid #717171;
+  border-radius: 16px;
+  margin-top: 29.97px;
+  margin-right: 94.79px;
+  padding: 10px;
+  width: 287.95px;
+  height: auto;
+}
+
+[data-theme='dark'] .textv:hover {
+  
+  border: none;
+  text-decoration: none;
+  border: 1.89px solid #717171;
+  border-radius: 16px;
+  margin-top: 29.97px;
+  margin-right: 94.79px;
+  padding: 10px;
+  width: 287.95px;
+  height: auto;
+}
+
+/* Media query for tablets and larger devices */
+@media screen and (max-width: 996px) {
+  .border {
+    margin-left: 30px;
+    margin-top: 40px;
+    margin-right: 10px;
+    padding: 8px;
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+  }
+
+  .text {
+    font-size: 16px;
+    line-height: 1.5;
+    width: 100%;
+  }
+
+  .textheading {
+    font-size: 20px;
+    line-height: 1.5;
+    height: auto;
+    margin-top: 20px;
+  }
+}
+
+/* Media query for mobile devices */
+@media screen and (max-width: 576px) {
+  .border {
+    border-width: 1px;
+    border-radius: 8px;
+  }
+
+  .text {
+    font-size: 14px;
+  }
+
+  .textheading {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+}
+

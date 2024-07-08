@@ -51,21 +51,21 @@ const config = {
       // Replace with your project's social card
       image: 'img/ficon.png',
       navbar: {
-        title: 'APIs',
+        title: 'Bala',
         logo: {
           alt: 'Botlhale AI Logo',
-          src: 'img/ficon.png',
+          src: 'img/bala.ico',
         }, 
         items: [          
           {
             type: 'doc',
-            docId: 'Bala',
+            docId: 'API',
             position: 'right',
             to: '/',
             href: '/',
             html: `
               <img
-                src="/img/logo.png"
+                src="/img/bala-logo.png"
                 alt="Botlhale AI Logo"
                 class="navbar-logo-custom"
                 style="height: 2rem; margin-right: 1rem; filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.75)); "

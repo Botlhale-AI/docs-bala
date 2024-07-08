@@ -5,8 +5,8 @@ body {
 }
 
 :root {
-  --ifm-color-primary: #717171;
-  --ifm-color-primary-dark: #717171;
+  --ifm-color-primary:  #77bdc5;
+  --ifm-color-primary-dark:  #77bdc5;
   --ifm-color-primary-darker: #277148;
   --ifm-color-primary-darkest: #205d3b;
   --ifm-color-primary-light: #33925d;
@@ -17,8 +17,8 @@ body {
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #717171;
-  --ifm-color-primary-dark: #717171;
+  --ifm-color-primary: #77bdc5;;
+  --ifm-color-primary-dark: #77bdc5;;
   --ifm-color-primary-darker: #f4f4f4;
   --ifm-color-primary-darkest: #f4f4f4;
   --ifm-color-primary-light: #29d5b0;
@@ -38,7 +38,7 @@ body {
 
 /* Custom background color and text color for the body in dark mode */
 [data-theme='dark']  {
-  background-color: #3c3c3b; /* Dark background color */
+  background-color: #77bdc5;; /* Dark background color */
   color: white; /* Light text color for contrast */
   /* font-family: 'Open Sans', sans-serif; */
 }
@@ -61,22 +61,22 @@ body {
 }
 
 [data-theme='light'] .theme-doc-sidebar-item-link:hover .menu__link {
-  background-color: #717171; 
+  background-color: #77bdc5;; 
   color: white;
 }
 
 [data-theme='dark'].theme-doc-sidebar-item-link.menu_list-item.active .menu_link {
-background-color: #717171; 
+background-color:  #77bdc5;; 
 color: rgb(255, 255, 255);
 }
 
 [data-theme='light'].theme-doc-sidebar-item-link.menu_list-item.active .menu_link {
-  background-color: #717171; 
+  background-color:  #77bdc5;; 
   color: white;
   }
 
   [data-theme='dark'] .navbar{
-    background-color: #3c3c3b;
+    background-color: #77bdc5;;
   }
 
   [data-theme='light'] .navbar{

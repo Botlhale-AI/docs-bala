@@ -10,7 +10,7 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/bala.ico',
   organizationName: 'Botlhale-AI', 
   projectName: 'docs-bala', 
   deploymentBranch: 'gh-pages', 
@@ -54,7 +54,7 @@ const config = {
         items: [          
           {
             type: 'doc',
-            docId: 'API',
+            docId: 'Create',
             position: 'right',
             to: '/',
             href: '/',

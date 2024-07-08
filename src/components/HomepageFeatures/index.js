@@ -5,47 +5,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Getting Started',
-    link: '/docs/API',
+    title: 'Create',
+    link: '/docs/Create',
     description: (
       <>
-        Check out the languages we support and learn how we handle authentication.
+        Learn how to create and set up your Bala account
       </>
     ),
   },
   {
-    title: 'Chatbot APIs',
-    link: '/docs/Chatbot APIs',
+    title: 'Record',
+    link: '/docs/Record',
     description: (
       <>
-        Explore the APIs behind our chatbots.
+        Learn how to create and record your meetings.
       </>
     ),
   },
   {
-    title: 'Translation API',
-    link: '/docs/Translation API',
+    title: 'Listen',
+    link: '/docs/Listen',
     description: (
       <>
-        Discover how we translate conversations with our API.
-      </>
-    ),
-  },
-  {
-    title: 'Text-to-Speech API',
-    link: '/docs/Text-to-Speech API',
-    description: (
-      <>
-        Find out about the API that gives voice to our technology.
-      </>
-    ),
-  },
-  {
-    title: 'Speech-to-Text API',
-    link: '/docs/Speech-to-Text API',
-    description: (
-      <>
-        Learn how our API turns spoken words into written text.
+        Learn how to review and manage your meeting analyses.
       </>
     ),
   },
@@ -123,8 +105,8 @@ function YoutubeVideo({ title, videoId }) {
 export default function HomepageFeatures() {
   return (
     <div className="container">
-      <Heading as="h3" className={styles.textheading}>API Documentation</Heading>
-      <p className={styles.text}>Botlhale AI's APIs follow REST principles. They feature resource-oriented URLs, accept form-encoded request bodies, return JSON responses, and use standard HTTP response codes and authentication. For more details, look at the cards below.</p>
+      <Heading as="h3" className={styles.textheading}>Bala Documentation</Heading>
+      <p className={styles.text}>Introducing Bala, an innovative meeting app designed to streamline your in-person and offline meetings on platforms like Google Meet, Teams, and Zoom. With Bala, users can easily navigate to the Listen page to access detailed transcriptions of their meetings. These transcriptions are meticulously diarized by speaker, providing a clear and organized way to review discussions, action items, and key notes. Bala ensures that you never miss a crucial detail, making your meeting management more efficient and effective.</p>
       <section>
         <div className="row">
           {FeatureList.map((props, idx) => (
@@ -133,7 +115,7 @@ export default function HomepageFeatures() {
         </div>
       </section>
       
-      {/* <Heading as="h2" className={styles.marg}>Bua Tutorial Videos</Heading>
+      {/* <Heading as="h2" className={styles.marg}>Bala Tutorial Videos</Heading>
       <div className="row">
         {ytVideos.map((props, idx) => (
           <YoutubeVideo key={idx} {...props} />
